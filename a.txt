@@ -573,19 +573,6 @@ vicioso
 vítima
 vítima
 viciado
-
-
-
-
-
-
-Você disse:
-todos porra ve os que faltam e da me todos
-O ChatGPT disse:
-ChatGPT
-Desculpa pela confusão anterior. Aqui está a lista completa com os termos que faltavam:
-
-abafa-a-palhinha
 abécula
 abelhudo
 abichanado
@@ -1166,3 +1153,337 @@ vítima
 viciado
 drogado
 drogadolas
+conteudo = """
+Aldrabão
+Abécula
+Agarrado
+Analfabruto
+Atraso de vida
+Apanhado do clima
+Azeiteiro
+Alcoviteira
+Aselha
+Asno
+Anjinho
+Asqueroso
+Arruaceiro
+Artolas
+
+Badameco
+Bandido
+Bruto
+Besta quadrada
+Barrigudo
+Brutamontes
+Borra-botas
+Bufo
+Boca de xarroco
+Boi
+Basbaque
+Biltre
+Bexigoso
+Bichona
+Bêbedo
+Bebedolas
+Batoque
+Banana
+Bardajona
+Badalhoca
+Bisbilhoteira
+Bandalho
+Bota de elástico
+Baldas
+Brochista
+Boneca de trapos
+Beata
+Bronco
+Betinho
+Bárbaro
+
+Cunanas
+Camelo
+Chalado
+Camafeu
+Cona de sabão
+Cara de cu à paisana
+Coirão
+Choninhas
+Carroceiro
+Cabeçudo
+Cavalgadura
+Canalha
+Cretino
+Calhandreira
+Caga-tacos
+Cegueta
+Caixa de óculos
+Cornudo
+Coxo
+Candongueiro
+Careca
+Chupado das carochas
+Copinho de leite
+Cacique
+Calão
+Cabra
+Cabrão
+Cusca
+Coscuvilheira
+Cão
+Cabeça no ar
+Convencido
+Chanfrado
+Cagão
+Chato
+Cobardola
+Cavalona
+Chico-esperto
+Charlatão
+Caloteiro
+Cigano
+Comuna
+Carrancudo
+Corno
+Caceteiro
+Canalha
+Carapau de corrida
+Choné
+Cabeça de abóbora
+
+Delambida
+Desenxabida
+Doido varrido
+Doidivanas
+Desmancha prazeres
+Desastrada
+Desengonçado
+Desaustinado
+Desbocado
+
+Escanifobética
+Estafermo
+Embusteiro
+Estúpido
+Esqueleto vaidoso
+Engraxador
+Esgalgado
+Empecilho
+Estroina
+Escarumba
+Estouvada
+Estupor
+Espantalho
+Estapafúrdio
+Energúmeno
+Espalhafatoso
+Enjoado da trampa
+
+Flausina
+Farsante
+Filho da puta
+Fufa
+Fersureira
+Falhado
+Foleiro
+Facínora
+Falsário
+Franganote
+Fanfarrão
+Fanático
+Fanchono
+Filho da mãe
+
+Gatuno
+Gordalhufo
+Gabiru
+Galinha choca
+Galdéria
+Gabarola
+Gosma
+Gandulo
+Ganancioso
+Garganeira
+
+Histérica
+Herege
+
+Idiota
+Imbecil
+Incapaz
+Incompetente
+Inútil
+
+Javardo
+Judeu
+
+Lambisgóia
+Ladrão
+Lavajão
+Lambéconas
+Lambe-botas
+Lingrinhas
+Larápio
+Larilas
+Labrego
+Louco
+Lorpa
+Lunático
+
+Morcão
+Malacueco
+Maluco
+Mariquinhas pé-de-salsa
+Meliante
+Mentiroso
+Malandro
+Malandreco
+Malandrim
+Marreco
+Maneta
+Mouco
+Mariconço
+Maricas
+Menino da mamã
+Mastronço
+Mostrengo
+Moina
+Meia-leca
+Medroso
+Monhé
+Molengão
+Mafioso
+Medricas
+Masoquista
+Mineteiro
+Maltrapilho
+Maria-vai-com-as-outras
+Miserável
+Magricela
+Mula
+Mal enjorcado
+Mimado
+
+Nódoa
+Nulidade
+Nabo
+Nojento
+Não-tens-onde-cair-morto
+Nababo
+
+Otário
+Olhos de carneiro mal morto
+Orelhas de abano
+Obcecado
+Ordinário
+Obstinado
+
+Palerma
+Parvalhão
+Pateta
+Parvo
+Porcalhão
+Piroso
+Pirata
+Piolhoso
+Peida-gadoxa
+Pantomineiro
+Pote de banhas
+Pernas de alicate
+Pelintra
+Patego
+Panasca
+Paneleiro
+Putéfia
+Puta
+Panilas
+Pés de chumbo
+Patife
+Perliquiteques
+Palhaço
+Palhaçote
+Porco
+Punheteiro
+Preguiçoso
+Pacóvio
+Pobre de espírito
+Proxeneta
+Patinho feio
+Panhonhas
+Pintor
+Parasita
+Presunçoso
+Palonça
+Peneirenta
+Pobre diabo
+
+Quadrilheira
+Queixinhas
+Quatro-olhos
+
+Ranhoso
+Reles
+Rasca
+Rameira
+Rabeta
+Rafeiro
+Reaccionário
+Reaças
+Raquítico
+
+Salafrário
+Safardana
+Sevandija
+Sacripanta
+Sacrista
+Sacana
+Sovina
+Somítico
+Safado
+Sabujo
+Saloio
+Soba
+Sebento
+Sapatona
+Sádico
+Serigaita
+Sarnento
+Snob
+
+Tarado
+Trombalazanas
+Trapaceiro
+Trabeculoso
+Tísico
+Trombudo
+Trauliteiro
+Tinhoso
+Trique-lariques
+Tosco
+Totó
+Trombeiro
+Trouxa
+Tonto
+Traste
+Trinca-espinhas
+Troca-tintas
+
+Unhas de fome
+Urso
+
+Vaca gorda
+Vigarista
+Vândalo
+Vígaro
+Vigarista
+Velhaco
+Vendido
+Vagabundo
+Vira-casacas
+Vaidoso
+
+Xé-xé
+
+Zero à esquerda
+Zarolho
+Zé-ninguém
+
